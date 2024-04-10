@@ -12,7 +12,7 @@ function App() {
       <ShopContextProvider>
         <Router>
           <Navbar />
-          <Routes>
+          <Routes> 
             <Route path="/" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
